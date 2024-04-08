@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Scanner;
+
 public class Main {
     static int peopleAvailable;
     static Scanner sc = new Scanner(System.in);
@@ -12,6 +13,7 @@ public class Main {
         item.addItem();
         nextItemAndBreak();
     }
+
     public static void start() {
         System.out.println("Добро пожаловать в Калькулятор счёта v1.0 \nНа сколько человек необходимо разделить счёт?");
         while (true) {
@@ -28,6 +30,7 @@ public class Main {
             }
         }
     }
+
     public static void nextItemAndBreak() {
         while (true) {
             System.out.println("Хотите добавить ещё один товар? \nВведите название товара или введите \"Завершить\"- чтобы посчитать результат.");

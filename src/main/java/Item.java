@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Item {
     Scanner sc = new Scanner(System.in);
     Format format = new Format();
@@ -25,6 +26,7 @@ public class Item {
             }
         }
     }
+
     public void addAnotherItem(String next) {
         itemName = next;
         while (true) {
@@ -44,6 +46,7 @@ public class Item {
             }
         }
     }
+
     public void showItemsAdded() {
         int index = 0;
         System.out.println("Добавленные товары: \n");
